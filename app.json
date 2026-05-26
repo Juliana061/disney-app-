@@ -17,6 +17,11 @@
         "backgroundColor": "#0d1b2a"
       },
       "package": "com.tuusuario.disneyapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a0f36c9-fb41-41e7-a2a1-3508b9240443"
+      }
     }
   }
 }
