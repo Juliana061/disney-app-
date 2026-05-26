@@ -1,31 +1,22 @@
 {
   "expo": {
-    "name": "disney-app-",
-    "slug": "disney-app-",
+    "name": "Disney App",
+    "slug": "disney-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1b2a"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0d1b2a"
       },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.juls610.disneyapp"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "b5603777-9d13-4144-b2e3-fae1e9f398a8"
-      }
+      "package": "com.tuusuario.disneyapp"
     }
   }
 }
