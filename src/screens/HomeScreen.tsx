@@ -43,6 +43,14 @@ export default function HomeScreen({ navigation }: any) {
         </TouchableOpacity>
       </View>
 
+      {/* BOTON ORIGINAL */}
+      <TouchableOpacity
+        style={styles.originalBtn}
+        onPress={() => navigation.navigate('Original')}
+      >
+        <Text style={styles.originalText}>🎭 ¿A qué personaje Disney te pareces?</Text>
+      </TouchableOpacity>
+
       {/* BUSCADOR */}
       <TextInput
         style={styles.input}
@@ -81,6 +89,8 @@ const styles = StyleSheet.create({
   title: { fontSize: 24, fontWeight: 'bold', color: '#fff' },
   logoutBtn: { backgroundColor: '#c0392b', padding: 8, borderRadius: 8 },
   logoutText: { color: '#fff', fontWeight: 'bold' },
+  originalBtn: { backgroundColor: '#8e44ad', padding: 14, borderRadius: 12, marginBottom: 12, alignItems: 'center' },
+  originalText: { color: '#fff', fontWeight: 'bold', fontSize: 15 },
   input: { backgroundColor: '#1c2e42', color: '#fff', borderRadius: 12, padding: 12, marginBottom: 16, fontSize: 15 },
   row: { justifyContent: 'space-between', marginBottom: 12 },
   card: { backgroundColor: '#1c2e42', borderRadius: 12, width: '48%', overflow: 'hidden' },
