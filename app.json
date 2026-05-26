@@ -12,11 +12,12 @@
       "backgroundColor": "#0d1b2a"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#0d1b2a"
-      },
-      "package": "com.tuusuario.disneyapp"
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/icon.png",
+    "backgroundColor": "#0d1b2a"
+  },
+  "package": "com.tuusuario.disneyapp",
+  "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "extra": {
       "eas": {
